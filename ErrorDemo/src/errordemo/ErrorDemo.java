@@ -24,6 +24,7 @@ public class ErrorDemo {
         }
         catch (Exception e)
                 {
+                    //If one were to make num=any number divided by deno=0 will result in this exception
                     System.out.println(e.getMessage());
                 }
         finally
